@@ -6,5 +6,6 @@ namespace eShop.Domain.Repository
 {
     interface IRepository
     {
+        int Save();
     }
 }
