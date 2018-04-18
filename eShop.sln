@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop", "eShop\eShop.csproj", "{52BF0301-F073-4952-9AAC-BD514BD00501}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eShop.Domain", "eShop.Domain", "{AE708DE0-52FD-4CA2-9C0F-B2F9605DA738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Domain.Repository", "eShop.Domain.Repository\eShop.Domain.Repository.csproj", "{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{52BF0301-F073-4952-9AAC-BD514BD00501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BF0301-F073-4952-9AAC-BD514BD00501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BF0301-F073-4952-9AAC-BD514BD00501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{579F28DE-3C20-4A3C-B14A-EA50BAA15DD4} = {AE708DE0-52FD-4CA2-9C0F-B2F9605DA738}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23F3128B-00D3-4154-8311-A884F7217672}
